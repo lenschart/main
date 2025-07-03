@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>透镜科技-你的好帮手</title>
+    <link rel = "icon" href = "resource/images/lens.ico" type="image/x-icon">
+    <link href="resource/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 50px;
+            padding-bottom: 40px;
+            color: #5a5a5a;
+        }
+        .div1 {
+            margin-top:-5px;
+            width:21.9px;
+            height:30px;
+            float:left;
+            background-color:LemonChiffon;
+        }
+        .div2 {
+            margin-top:-5px;
+            margin-right:1px;
+            width:17px;
+            height:30px;
+            float:left;
+            background-color:LemonChiffon;
+            background-image: linear-gradient(to right, LemonChiffon, MediumAquaMarine);
+        }
+        .carousel {
+            height: 520px;
+            margin-bottom: 60px;
+        }
+        .carousel .item {
+            height: 520px;
+            background-color: #000;
+        }
+        .carousel .item img {
+            width: 100%;
+        }
+        .carousel-caption {
+            z-index: 10;
+        }
+        .carousel-caption p {
+            margin-bottom: 10px;
+            font-size: 20px;
+            line-height: 1.8;
+        }
+        /* 简介 */
+        .summary {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        .summary .col-md-4 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .feature-divider {
+            margin: 45px 0;
+        }
+        .feature {
+            padding: 30px 0;
+        }
+        .feature-heading {
+            font-size: 50px;
+            color: #2a6496;
+            margin-top: 120px;
+        }
+        .feature-heading .text-muted {
+            font-size: 28px;
+        }
+        .row .col-md-3 img {
+            
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .summary {
+                padding-right: 3px;
+                padding-left: 3px;
+            }
+            .carousel {
+                height: 300px;
+                margin-bottom: 30px;
+            }
+            .carousel .item {
+                height: 300px;
+            }
+            .carousel img {
+                min-height: 300px;
+            }
+            .carousel-caption p {
+                font-size: 16px;
+                line-height: 1.4;
+            }
+            .feature-heading {
+                font-size: 34px;
+            }
+            .feature-heading .text-muted {
+                font-size: 22px;
+            }
+            /* .textare p {
+                font-size: 16px;
+            } */
+        }
+    </style>
+</head>
+
+<body>
+<!-- 顶部导航 -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu-nav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <span class="navbar-brand" style="color:#FFF; font-size:20px">
+            <div class="div1"><h5 style="color:red; text-align:right; margin-top:8px">Len</h5></div>
+            <div class="div2"><h4 style="color:orange; text-align:left; margin-top:7px">S</h5></div>
+            透镜科技</span>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#">开始 </a></li>
+                <li><a href="#summary-container">解决方案 </a></li>
+                <li><a href="#tab-arch">类型 </a></li>
+				
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">典型 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#support-summary">支持特性 </a></li>                   
+                        <li><a href="#cloud-summary">可扩展的云 </a></li>
+                        <li><a href="#internet">设备互联 </a></li>
+                        <li><a href="#support-chart">资源可视化 </a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#aboutus">关于</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="ad-carousel" style="text-align: center;" >
+	<h2 style="color: #2a6496;">透镜科技(LenS)的使命</h2>
+	<p>透镜科技将努力为您提供全面的软件信息化架构咨询和技术实现服务</p>
+	<img src="resource/images/zf-big.png">
+</div>
+<br />
+<!-- 主要内容 -->
+<div class="container summary">
+    <!-- 简介 -->
+    <div class="row" id="summary-container">
+        <div class="col-md-4">
+			<img class="img-circle" src="resource/images/prog-small.png" alt="lost images!" height="140px" width="140px">
+			<h2>软件集成与设计</h2>
+			<p>Integration&Design</p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="resource/images/Android-small.jpg" alt="lost images!" height="140px" width="140px">
+            <h2>手机app</h2>
+            <p>Android</p>
+
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="resource/images/play-small.png" alt="lost images!" height="140px" width="140px">
+            <h2>流媒体</h2>
+			<p>Stream</p>
+
+        </div>
+		<div class="col-md-4">
+            <img class="img-circle" src="resource/images/itot-small.png" alt="lost images!" height="140px" width="140px">
+            <h2>物联网</h2>
+			<p>Iot</p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="resource/images/h5-small.jpg" alt="lost images!" height="140px" width="140px">
+            <h2>互联网站点</h2>
+            <p>Html5</p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="resource/images/cloud-small.png" alt="lost images!" height="60px" style="margin-top: 50px;">
+            <h2 style="margin-top: 50px;">可扩展云服务</h2>
+            <p>Cloud</p>
+        </div>
+    </div>
+
+    <!-- 特性 -->
+	<div class="tab-pane active" id="tab-arch">
+		<div class="row feature">
+			<div class="col-md-11" style="margin-top: -100px; margin-left: 50px;">
+				<h4 class="feature-heading">系统架构设计 <span class="text-muted">Architecture</span></h4>
+				<p class="lead">软件架构解决方案设计和软件开发服务咨询，包括软件功能分析、概要和详细设计</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="tab-pane" id="tab-app">
+		<div class="row feature" >
+			<div class="col-md-11" style="margin-top: -160px; margin-left: 50px; text-align: right;">
+				<h2 class="feature-heading">应用软件 <span class="text-muted">App</span></h2>
+				<p class="lead">用户定义的功能性软件，包含安卓手机应用软件</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="tab-pane" id="tab-linux">
+		<div class="row feature" >
+			<div class="col-md-11" style="margin-top: -160px; margin-left: 50px;">
+				<h2 class="feature-heading">Linux <span class="text-muted">服务器软件</span></h2>
+				<p class="lead">数据驱动的服务端软件，比如web站点</p>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="tab-pane" id="tab-hardware">
+		<div class="row feature" >
+			<div class="col-md-11" style="margin-top: -160px; margin-left: 50px; text-align: right;">
+				<h2 class="feature-heading">X86_64&Arm <span class="text-muted">不同机器硬件结构软件</span></h2>
+				<p class="lead">软件跨硬件平台支持，支持物联网和人工智能</p>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="tab-pane" id="tab-locale">
+		<div class="row feature" >
+			<div class="col-md-11" style="margin-top: -160px; margin-left: 50px; text-align: right;">
+				<h2 class="feature-heading">国产系统软件适配 <span class="text-muted">国产系统应用软件</span></h2>
+				<p class="lead">国产化软件适配或者原生开发</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="tab-pane" id="tab-cloud">
+		<div class="row feature" >
+			<div class="col-md-11" style="margin-top: -160px; margin-left: 50px;">
+				<h2 class="feature-heading">云服务 <span class="text-muted">自动化部署运维</span></h2>
+				<p class="lead">自动化流程，服务部署等</p>
+			</div>
+		</div>
+	</div>
+    
+	<hr class="feature-divider" >
+ 
+	<div id="support-summary">
+		<div class="tab-pane">
+			<div class="row feature">
+				<div class="col-md-4">
+					<img class="feature-image img-responsive" src="resource/images/rowlist.png" alt="img lost!">
+				</div>
+				<div class="col-md-8" style="font-size:16px;">                   
+					<p><span style="color:#2a6496">透镜</span>软件专注于服务用户，通过完整的软件功能分析、概要和详细设计，使软件更加简单易用。</p>
+					<p><span style="color:#2a6496">透镜</span>使用开源技术降低成本和规避风险，使得用户可以自由选择定义软件，同时不增加难度。</p>
+					<p><span style="color:#2a6496">透镜</span>支持多种类型软件集成和自由定制，有效的节约用户时间和增进开发效率；适合于行业要求较高、数据规模较大、可靠性保证要求等应用场景。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+	<div id="cloud-summary">
+		<div class="tab-pane">
+            <div class="row feature">                
+				<div class="col-md-8" style="font-size: 16px">
+                    <p><span style="color:#2a6496">透镜云</span>是一种共享的软硬件资源和信息，按需求提供计算服务。消费者使用“基础计算资源”，如处理能力、存储空间、网络组件或中间件。消费者掌控操作系统、存储空间、已部署的应用程序及网络组件（如防火墙、负载平衡器等）。</p>
+					<p><span style="color:#2a6496">透镜云</span>弹性计算服务，服务数据与程序皆在内部局域管理，与公用云服务不同，不会受到网络带宽、安全疑虑、规则限制影响。</p>
+				</div>
+                <div class="col-md-4" style="">
+                    <img src="resource/images/s_mesh.png" alt="img lost!">
+                </div>
+            </div>
+		</div>
+	</div>
+ 
+	<div id="internet">
+        <div class="tab-pane">
+            <div class="row feature">
+                <div class="col-md-8" style="font-size: 16px">
+                    <p>物联网（IoT）是通过互联网将各种物理设备和传感器连接起来，使它们能够收集、交换和处理数据；在工业、服务业、商业、基础设施、军事等方面有很广泛的应用。</p>
+                    <p><span style="color:#2a6496">透镜</span>智能网络（Smart Grid）利用信息及通信技术，以数字方式侦测和收集供应端及使用端的在线信息数据状况；再利用这些信息数据来分析、预警、调整规划生产与供给，以此达到节约能源，降低损耗，监控网络状态目的；从而实现智能化识别和管理。</p>
+                    <p><span style="color:#2a6496">透镜</span>物联网与人工智能（Ai）的结合，以实现更高效率的物联网运作，改善人机交流、增强数据管理和分析。</p>
+                </div>
+                <div class="col-md-4" style="">
+                    <img src="resource/images/grid.jpg" alt="img lost!">
+                </div>
+            </div>
+        </div>
+	</div>
+
+	<div id="support-chart">
+        <div class="tab-pane">
+		    <div class="row feature">
+                <div class="col-md-4">
+                    <img class="feature-image img-responsive" src="resource/images/gui.jpg" alt="img lost!">
+                </div>
+                <div class="col-md-8" style="font-size:16px">                                     
+					<p>图形用户界面是一种人与计算机通信的界面显示格式；图形方式显示的计算机操作有基本用户界面、多交互式界面、自定义的管理界面等。</p>
+                    <p><span style="color:#2a6496">透镜</span>使用现代的计算机语言及辅助工具设计人机界面，增加了对设计数据与过程的管理，并进一步加强了界面与系统的集成。</p>
+                    <p><span style="color:#2a6496">透镜</span>Dashboard应用于管理、服务、文档等模块。新型办公设备PDA、手机、高清摄像头等使得dashboard数据和扩展的即时性可快速跨地域访问与管理。</p>
+                </div>
+            </div>
+		</div>
+	</div>
+	
+	<hr class="feature-divider" >
+	<div id="aboutus" style="margin-top:100px">
+		<h2><a href="#top" style="color:black; text-decoration: none;">透镜科技（LenS）</a></h2>
+		<p>透镜科技是专业的信息化服务和解决方案集成提供商，主要方向为IT信息化建设和咨询，公司提供完整技术支持以及设计方案实现。</p>
+		<p>我们拥有丰富的IT信息化资源及人才资源，具备多环境软件开发能力；在构建和实施过程中，积累了丰富的成功经验，确保了各项目的良好完成度。</p>
+		<p>透镜科技注重创新，坚持以技术创新为本，所有项目均按照客户要求，力求采用当前科技和前沿最新技术构建实施。</p>
+		<p>我们非常认真地对待您的隐私；我们所收集到的用户的某些信息，将严格为用户保密。</p>
+	</div>
+	<br />
+	<div style="font-size: 18px;">
+		<p>地址：北京市门头沟区石龙经济开发区永安路20号3号楼。邮编：102308。</p>
+		<p>电话：<b>010-62165085</b></p>
+<!--	<p>手机：<b>17765814805</b></p> -->
+		<p>邮箱：<b>schart@aliyun.com</b></p>
+		<br />
+	</div>
+
+</div>
+
+<footer>
+	<p style="text-align: center;">&copy; 2025 透镜科技 </p>
+	<p style="text-align:center"><span style="color:#333">Powered by <strong>LenS </strong><a href="http://www.miibeian.gov.cn/" rel="nofollow" target="_blank"> 京ICP备18048353号</a></span></p>
+</footer>
+
+<script src="resource/js/jquery-1.11.1.min.js"></script>
+<script src="resource/js/bootstrap.min.js"></script>
+<script src="resource/ming/js/calendar.js"></script>
+<script>
+    $(function () {
+        $('#ad-carousel').carousel();
+        $('#menu-nav .navbar-collapse a').click(function (e) {
+            var href = $(this).attr('href');
+            var tabId = $(this).attr('data-tab');
+            if ('#' !== href) {
+                e.preventDefault();
+                $(document).scrollTop($(href).offset().top - 70);
+                if (tabId) {
+                    $('#feature-tab a[href=#' + tabId + ']').tab('show');
+					$('#feature2-tab a[href=#' + tabId + ']').tab('show');
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>
